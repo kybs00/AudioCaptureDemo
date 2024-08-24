@@ -25,11 +25,14 @@ namespace MicCaptureDemo2
                 bufferedProvider.AddSamples(e.Buffer, 0, e.BytesRecorded);
             };
             _wasapiCapture = wasapiCapture;
-            //采样
+            //采样器
             var sampleProvider = bufferedProvider.ToSampleProvider();
             var simpleFormat = ToSimpleFormat(wasapiCapture.WaveFormat);
             // Mono to Stereo
-            if (simpleFormat.Channels == 1) sampleProvider = sampleProvider.ToStereo();
+            if (simpleFormat.Channels == 1)
+            {
+                sampleProvider = sampleProvider.ToStereo();
+            }
             _waveProvider = sampleProvider.ToWaveProvider16();
             //默认音频格式
             TargetFormat = wasapiCapture.WaveFormat;
