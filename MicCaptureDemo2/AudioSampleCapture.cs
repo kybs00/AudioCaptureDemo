@@ -37,6 +37,7 @@ namespace MicCaptureDemo2
             //默认音频格式
             TargetFormat = wasapiCapture.WaveFormat;
         }
+
         /// <summary>
         /// 音频格式
         /// </summary>
