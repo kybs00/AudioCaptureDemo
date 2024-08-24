@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicCaptureDemo1", "AudioCaptureDemo\MicCaptureDemo1.csproj", "{E310C24B-011B-438A-9D14-16024D09ACB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicCaptureDemo2", "MicCaptureDemo2\MicCaptureDemo2.csproj", "{5F82D0A0-6983-4372-AC82-2AF1815C5876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E310C24B-011B-438A-9D14-16024D09ACB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E310C24B-011B-438A-9D14-16024D09ACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E310C24B-011B-438A-9D14-16024D09ACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E310C24B-011B-438A-9D14-16024D09ACB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F82D0A0-6983-4372-AC82-2AF1815C5876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F82D0A0-6983-4372-AC82-2AF1815C5876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F82D0A0-6983-4372-AC82-2AF1815C5876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F82D0A0-6983-4372-AC82-2AF1815C5876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAA7AD90-EF7E-4945-AFFB-D3862E8AA49C}
+	EndGlobalSection
+EndGlobal
